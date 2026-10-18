@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Caveat:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=1" />
+  <link rel="stylesheet" href="styles.css?v=2" />
 </head>
 <body>
   <div class="bg" aria-hidden="true"><i></i><i></i><i></i></div>
@@ -47,17 +47,17 @@
   <section class="panel about" id="about">
     <h2 class="giant giant--sm">ABOUT ME</h2>
     <div class="about__board">
-      <figure class="polaroid">
+      <figure class="polaroid" tabindex="0">
         <img src="assets/avatar.jpg" alt="Lucy Hwang" />
       </figure>
-      <p class="scribble scribble--hi">hi! I’m Lucy —<br />the one making<br />all of this ↙</p>
+      <p class="scribble scribble--hi wiggle">hi! I’m Lucy —<br />the one making<br />all of this ↙</p>
       <div class="about__text">
         <p>I’m a senior at Saint James School in Montgomery, Alabama. I work across cut paper, collage, acrylic, watercolor, pen, and graphite — usually starting from something ordinary, like a cupcake, a lantern, or a pile of shapes, and pushing it until it says something about how we see.</p>
         <p>Growing up between cultures, I’ve noticed how often people see only parts of who we are. A lot of my work comes back to that: fragments, contrast, and the details you miss at first glance.</p>
       </div>
-      <img class="about__chip chip--1" src="assets/art/a-little-extra.jpg" alt="" />
-      <img class="about__chip chip--2" src="assets/art/in-defense-of-orange.jpg" alt="" />
-      <p class="scribble scribble--note">7 works,<br />3 years ✳</p>
+      <button class="about__chip chip--1" data-index="0" aria-label="View A Little Extra"><img src="assets/art/a-little-extra.jpg" alt="" /></button>
+      <button class="about__chip chip--2" data-index="2" aria-label="View In Defense of Orange"><img src="assets/art/in-defense-of-orange.jpg" alt="" /></button>
+      <a class="scribble scribble--note wiggle" href="#works">7 works,<br />3 years ✳</a>
     </div>
   </section>
 
